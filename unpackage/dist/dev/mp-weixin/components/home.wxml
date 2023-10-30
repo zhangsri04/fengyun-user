@@ -1,0 +1,1 @@
+<view>首页<button data-event-opts="{{[['tap',[['requset',['$event']]]]]}}" bindtap="__e">请求</button><button data-event-opts="{{[['tap',[['wxLog',['$event']]]]]}}" style="margin-top:50rpx;" bindtap="__e">微信授权登录</button></view>

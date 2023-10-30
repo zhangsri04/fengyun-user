@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.28",
+    "@vant/weapp": "^1.10.23",
+    "crypto-js": "^4.1.1",
+    "fastclick": "^1.0.6",
+    "jsrsasign": "^10.8.6"
+  },
+  "devDependencies": {
+    "sass": "^1.64.2",
+    "sass-loader": "^10.1.1"
+  }
+}

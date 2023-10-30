@@ -1,0 +1,72 @@
+/* ------------字体设置------------ */
+.font_size_xs {
+	font-size: 20upx;
+}
+
+.font_size_sm {
+	font-size: 24upx;
+}
+
+.font_size_df {
+	font-size: 28upx;
+}
+
+.font_size_lg {
+	font-size: 32upx;
+}
+
+.font_size_xl {
+	font-size: 36upx;
+}
+
+.font_size_xxl {
+	font-size: 44upx;
+}
+
+.font_size_sl {
+	font-size: 80upx;
+}
+
+.font_weight_bold {
+	font-weight: 700;
+}
+
+/* ------------背景颜色------------ */
+.bg-white {
+	background: #FFFFFF;
+}
+
+/* ------------边距设置------------ */
+.margin_top {
+	margin-top: 20upx;
+}
+
+.margin_bottom {
+	margin-bottom: 20upx;
+}
+
+/* ------------边框设置------------ */
+
+.border_top {
+	border-top: 1upx solid #efefef;
+}
+
+.border_bottom {
+	border-bottom: 1upx solid #efefef;
+}
+
+.border_radius {
+	border-radius: 20upx;
+}
+
+/* ------------flex 浮动------------ */
+.flex_row {
+	display: flex;
+	align-items: center;
+}
+
+.flex_column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

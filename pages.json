@@ -1,0 +1,157 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+			"van-(.*)": "@vant/weapp/dist/$1/index.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登入",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "游戏大厅",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6",
+				"app-plus": {
+					"bounce": false,
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "游戏大厅",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6",
+				"disableScroll": true,
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none" // 将回弹属性关掉
+				}
+			}
+		}, {
+			"path": "pages/individual/individual",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		}, {
+			"path": "pages/gameIntroduce/gameIntroduce",
+			"style": {
+				"navigationBarTitleText": "房间介绍",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		}, {
+			"path": "pages/walletCenter/walletCenter",
+			"style": {
+				"navigationBarTitleText": "钱包中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		}, {
+			"path": "pages/customerService/customerService",
+			"style": {
+				"navigationBarTitleText": "在线客服",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/gameBet/gameBet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none", // 将回弹属性关掉
+					"safearea": {
+						//安全区域配置，仅iOS平台生效  
+						"bottom": {
+							// 底部安全区域配置  
+							"offset": "auto" // 底部安全区域偏移，"none"表示不空出安全区域，"auto"自动计算空出安全区域，默认值为"none"  
+						}
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/applyRecord/applyRecord",
+			"style": {
+				"navigationBarTitleText": "申请记录",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		}, {
+			"path": "pages/gameRecord/gameRecord",
+			"style": {
+				"navigationBarTitleText": "游戏记录",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		},
+		{
+			"path": "pages/contestList/contestList",
+			"style": {
+				"navigationBarTitleText": "竞猜报表",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		},
+		{
+			"path": "pages/welfareList/welfareList",
+			"style": {
+				"navigationBarTitleText": "福利报表",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		},
+		{
+			"path": "pages/integralList/integralList",
+			"style": {
+				"navigationBarTitleText": "积分账变",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		}, {
+			"path": "pages/chatTest/chatTest",
+			"style": {
+				"navigationBarTitleText": "积分账变",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#5285a6"
+			}
+
+		}
+	]
+}

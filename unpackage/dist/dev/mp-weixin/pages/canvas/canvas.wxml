@@ -1,0 +1,1 @@
+<view><view class="can"><canvas style="{{'margin-top:'+(canvasH/10+'px')+';'+('width:'+(canvasW+'px')+';')+('height:'+(canvasH+'px')+';')}}" canvas-id="myCanvas"></canvas></view><view hidden="{{!(show)}}" class="botton"><button data-event-opts="{{[['tap',[['preserve',['$event']]]]]}}" bindtap="__e">保存</button></view></view>

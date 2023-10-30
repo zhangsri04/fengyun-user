@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/base_tab/base_tab",
+    "pages/index/index",
+    "pages/filters/filters",
+    "pages/canvas/canvas",
+    "pages/wx_login/wx_login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

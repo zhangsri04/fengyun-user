@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "组件式底部tabqieh",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "home": "/components/home",
+    "classify": "/components/classify",
+    "my": "/pages/index/index"
+  }
+}
